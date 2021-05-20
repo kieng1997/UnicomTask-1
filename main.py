@@ -270,7 +270,7 @@ def getStorageFlow(username):
     #获得我的礼包页面
     html = getQuerywinning(username)
     #寻找ul下的所有li，在未使用流量包栏页面
-    ul = html.xpath('/html/body/div[1]/div[7]/ul/li')
+    ul = html.xpath('/html/body/div[1]/div[6]/ul/li')
     #存储流量包数据
     datas = []
     #获得所有流量包的标识并存储
